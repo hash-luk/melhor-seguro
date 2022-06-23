@@ -1,6 +1,6 @@
 .initial-content {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(
     90deg,
     rgba(254, 217, 132, 1) 2%,
@@ -174,5 +174,49 @@ form .input {
 .initial-content__limiter>img {
     width: 315.37px;
     height: 535.71px;
+}
+
+.initial-content__brandings {
+    width: 100vw;
+    height: 150px;
+    background-color: #605CA8;
+}
+
+.initial-content__brandings__limiter {
+    max-width: 1216px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-content__brandings__limiter .affinity-logo {
+    width: 141.69px;
+    height: 64.75px;
+    margin-right: 43.95px;
+}
+
+.initial-content__brandings__limiter .assist-card {
+    width: 157.44px;
+    height: 105.21px;
+    margin-right: 56.42px;
+}
+
+.initial-content__brandings__limiter .gta-logo {
+    width: 120.04px;
+    height: 90.8px;
+    margin-right: 62.97px;
+}
+
+.initial-content__brandings__limiter .copy-logo {
+    width: 143px;
+    height: 36.12px;
+    margin-right: 49.85px;
+}
+
+.initial-content__brandings__limiter .coris-logo {
+    width: 145.63px;
+    height: 44.87px;
 }
 
