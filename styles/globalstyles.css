@@ -6,3 +6,7 @@
     -webkit-font-smooth: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+html {
+    overflow-x: hidden;
+}
