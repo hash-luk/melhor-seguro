@@ -25,11 +25,56 @@
           <a href="">ATENDIMENTO</a>
           <a href="">ENTRAR</a>
           <img
-            src="./assets/user-icon.svg"
+            src="./assets/icons/user-icon.svg"
             alt="Ícone de usuário para acessar as opções de sua conta"
           />
         </nav>
       </div>
     </header>
+    <section class="initial-content">
+      <div class="initial-content__limiter">
+        <h3>Encontre o seguro viagem com o melhor preço.</h3>
+        <div class="initial-content__info">
+          <form action="">
+            <div class="initial-content__input-destiny">
+              <img src="./assets/icons/map-icon.svg" alt="Ícone de localização de um mapa">
+              <label for="">Destino</label>
+              <input type="text" list="destiny" placeholder="Escolha seu destino">
+              <datalist id="destiny">
+                <option>América do Sul</option>
+                <option>América do Norte</option>
+                <option>Ásia</option>
+                <option>Oceania</option>
+              </datalist>
+            </div>
+            <div class="initial-content__input-people">
+              <img src="./assets/icons/people-icon.svg" alt="Ícone de pessoas, para representar quantas pessoas irão realizar a viagem">
+              <label for="peopleInTrip">Quantas pessoas?</label>
+              <button>-</button>
+              <input type="number">
+              <button>+</button>
+            </div>
+            <div class="initial-content__input-boarding">
+              <img src="./assets/icons/calendar-icon.svg" alt="Ícone de calendário, para representar a data de embarque">
+              <label for="boarding">Embarque </label>
+              <input type="date" name="boarding">
+            </div>
+            <div class="initial-content__input-landing">
+              <img src="./assets/icons/calendar-icon.svg" alt="Ícone de calendário, para representar a data de desembarque">
+              <label for="landing">Desembarque</label>
+              <input type="date" name="landing">
+            </div>
+            <div>
+              <button>Pesquisar Seguro Viagem</button>
+              <div>
+                <label for="alreadyInTrip">Já estou em viagem</label>
+                <input type="checkbox" name="alreadyInTrip">
+              </div>
+            </div>
+          </form>
+          <img src="./assets/imgs/saty-01.png" alt="Imágem representativa de um personagem em viagem">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
