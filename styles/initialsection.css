@@ -18,7 +18,7 @@
 
 .initial-content__limiter h3 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: bold;
   color: #605ca8;
   line-height: 34px;
   text-align: left;
@@ -79,15 +79,23 @@ form .input {
   width: 100%;
 }
 
-.destiny-input::-webkit-calendar-picker-indicator {
+input::-webkit-calendar-picker-indicator {
     display: none !important;
 }
 
 .initial-content__input-destiny .destiny-input[placeholder] {
-    background-image:url('../assets/icons/down-arrow-icon.svg');
-    background-size:30px 30px;
+    background-image:url('../assets/icons/down-arrow.svg');
+    background-size:24px 24px;
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.boarding-input {
+  background-image:url('../assets/icons/down-arrow.svg');
+  background-repeat: no-repeat;
+  background-size:24px 24px;
+  background-position: right;
+  position: relative;
 }
 
 .initial-content__input-people {
