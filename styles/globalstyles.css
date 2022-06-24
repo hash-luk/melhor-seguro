@@ -1,8 +1,24 @@
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/AeonikTRIAL-Bold.otf");
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/AeonikTRIAL-Light.otf");
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("../assets/fonts/AeonikTRIAL-Regular.otf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Aeonik', sans-serif;
     -webkit-font-smooth: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
